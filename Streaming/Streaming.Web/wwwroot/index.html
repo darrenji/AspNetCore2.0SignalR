@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Streaming</title>
+</head>
+<body>
+    <div>
+        <input type="button" id="start" value="start" />
+        <ul id="dis"></ul>
+    </div>
+
+    <script type="text/javascript" src="signalr-client-1.0.0-alpha2-final.js"></script>
+    <script type="text/javascript">
+        var transport = signalR.TransportType.WebSockets;
+        var connection = new signalR.HubConnection(`http://${document.location.host}/streaming`, { transport: transport });
+
+        var button = document.getElementById("start");
+
+        button.addEventListener("click", event => {
+            //从这里的点击开始，触发Hub的方法，这里是握手的起点
+            //Hub需要客户端执行的方法streamStarted在哪里定义呢？
+            connection.invoke("sendStreamInit");
+        });
+
+        function startStreaming() {
+            connection.stream("StartStreaming").subscribe({
+                next: onStreamReceived,
+                err: function (err) {
+                    console.log(err);
+                },
+                complete: function () {
+                    console.log("finished streaming");
+                }
+            });
+        }
+
+        //Hub需要客户端执行的方法streamStarted就在这里定义了
+        connection.on("streamStarted", function () {
+            startStreaming();
+        });
+
+        function onStreamReceived(data) {
+            console.log("received: " + data);
+            var liElement = document.createElement('li');
+            liElement.innerHTML = '<strong>' + "received" + '</strong>:&nbsp;&nbsp;' + data;
+            document.getElementById('dis').appendChild(liElement);
+        }
+
+        connection.start();
+    </script>
+</body>
+</html>

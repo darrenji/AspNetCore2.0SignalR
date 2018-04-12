@@ -1,0 +1,11 @@
+E:\demos\NET\.Net_Core_2.0\SignalR\radu\ChatOnConsole\ChatOnConsole\bin\Debug\netcoreapp2.0\ChatOnConsole.deps.json
+E:\demos\NET\.Net_Core_2.0\SignalR\radu\ChatOnConsole\ChatOnConsole\bin\Debug\netcoreapp2.0\ChatOnConsole.runtimeconfig.json
+E:\demos\NET\.Net_Core_2.0\SignalR\radu\ChatOnConsole\ChatOnConsole\bin\Debug\netcoreapp2.0\ChatOnConsole.runtimeconfig.dev.json
+E:\demos\NET\.Net_Core_2.0\SignalR\radu\ChatOnConsole\ChatOnConsole\bin\Debug\netcoreapp2.0\ChatOnConsole.dll
+E:\demos\NET\.Net_Core_2.0\SignalR\radu\ChatOnConsole\ChatOnConsole\bin\Debug\netcoreapp2.0\ChatOnConsole.pdb
+E:\demos\NET\.Net_Core_2.0\SignalR\radu\ChatOnConsole\ChatOnConsole\obj\Debug\netcoreapp2.0\ChatOnConsole.csprojResolveAssemblyReference.cache
+E:\demos\NET\.Net_Core_2.0\SignalR\radu\ChatOnConsole\ChatOnConsole\obj\Debug\netcoreapp2.0\ChatOnConsole.csproj.CoreCompileInputs.cache
+E:\demos\NET\.Net_Core_2.0\SignalR\radu\ChatOnConsole\ChatOnConsole\obj\Debug\netcoreapp2.0\ChatOnConsole.AssemblyInfoInputs.cache
+E:\demos\NET\.Net_Core_2.0\SignalR\radu\ChatOnConsole\ChatOnConsole\obj\Debug\netcoreapp2.0\ChatOnConsole.AssemblyInfo.cs
+E:\demos\NET\.Net_Core_2.0\SignalR\radu\ChatOnConsole\ChatOnConsole\obj\Debug\netcoreapp2.0\ChatOnConsole.dll
+E:\demos\NET\.Net_Core_2.0\SignalR\radu\ChatOnConsole\ChatOnConsole\obj\Debug\netcoreapp2.0\ChatOnConsole.pdb

@@ -1,0 +1,11 @@
+E:\demos\NET\.Net_Core_2.0\SignalR\radu\UseInMvc\UseInMvc\bin\Debug\netcoreapp2.0\UseInMvc.deps.json
+E:\demos\NET\.Net_Core_2.0\SignalR\radu\UseInMvc\UseInMvc\bin\Debug\netcoreapp2.0\UseInMvc.runtimeconfig.json
+E:\demos\NET\.Net_Core_2.0\SignalR\radu\UseInMvc\UseInMvc\bin\Debug\netcoreapp2.0\UseInMvc.runtimeconfig.dev.json
+E:\demos\NET\.Net_Core_2.0\SignalR\radu\UseInMvc\UseInMvc\bin\Debug\netcoreapp2.0\UseInMvc.dll
+E:\demos\NET\.Net_Core_2.0\SignalR\radu\UseInMvc\UseInMvc\bin\Debug\netcoreapp2.0\UseInMvc.pdb
+E:\demos\NET\.Net_Core_2.0\SignalR\radu\UseInMvc\UseInMvc\obj\Debug\netcoreapp2.0\UseInMvc.csprojResolveAssemblyReference.cache
+E:\demos\NET\.Net_Core_2.0\SignalR\radu\UseInMvc\UseInMvc\obj\Debug\netcoreapp2.0\UseInMvc.csproj.CoreCompileInputs.cache
+E:\demos\NET\.Net_Core_2.0\SignalR\radu\UseInMvc\UseInMvc\obj\Debug\netcoreapp2.0\UseInMvc.AssemblyInfoInputs.cache
+E:\demos\NET\.Net_Core_2.0\SignalR\radu\UseInMvc\UseInMvc\obj\Debug\netcoreapp2.0\UseInMvc.AssemblyInfo.cs
+E:\demos\NET\.Net_Core_2.0\SignalR\radu\UseInMvc\UseInMvc\obj\Debug\netcoreapp2.0\UseInMvc.dll
+E:\demos\NET\.Net_Core_2.0\SignalR\radu\UseInMvc\UseInMvc\obj\Debug\netcoreapp2.0\UseInMvc.pdb

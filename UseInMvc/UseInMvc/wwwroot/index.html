@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>SignalR MVC Notification</title>
+</head>
+<body>
+    <div>
+        <input type="button" id="getValues" value="go" />
+        <ul id="dis"></ul>
+    </div>
+
+    <script type="text/javascript" src="signalr-client-1.0.0-alpha2-final.js"></script>
+
+    <script type="text/javascript">
+        var transport = signalR.TransportType.WebSockets;
+        var connection = new signalR.HubConnection(`http://${document.location.host}/notifications`, { transport: transport });
+
+        var button = document.getElementById("getValues");
+
+        //这个方法是在Hub中定义的，更确切地说，是在控制器中发起的
+        connection.on('updateStuff', (value) => {
+            var liElement = document.createElement("li");
+            liElement.innerHTML = 'a controller method called, return value is: ' + value;
+            document.getElementById("dis").appendChild(liElement);
+        });
+
+        //通过调用接口触发Hub中的方法
+        button.addEventListener("click", event => {
+            fetch("http://localhost:61709/api/Simple")
+                .then(function (data) {
+                    console.log(data);
+                })
+                .catch(function (error) {
+                    console.log(error);
+                });
+        });
+
+        connection.start();
+    </script>
+</body>
+</html>

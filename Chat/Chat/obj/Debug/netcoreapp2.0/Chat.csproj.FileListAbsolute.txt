@@ -1,0 +1,11 @@
+E:\demos\NET\.Net_Core_2.0\SignalR\radu\Chat\Chat\bin\Debug\netcoreapp2.0\Chat.deps.json
+E:\demos\NET\.Net_Core_2.0\SignalR\radu\Chat\Chat\bin\Debug\netcoreapp2.0\Chat.runtimeconfig.json
+E:\demos\NET\.Net_Core_2.0\SignalR\radu\Chat\Chat\bin\Debug\netcoreapp2.0\Chat.runtimeconfig.dev.json
+E:\demos\NET\.Net_Core_2.0\SignalR\radu\Chat\Chat\bin\Debug\netcoreapp2.0\Chat.dll
+E:\demos\NET\.Net_Core_2.0\SignalR\radu\Chat\Chat\bin\Debug\netcoreapp2.0\Chat.pdb
+E:\demos\NET\.Net_Core_2.0\SignalR\radu\Chat\Chat\obj\Debug\netcoreapp2.0\Chat.csprojResolveAssemblyReference.cache
+E:\demos\NET\.Net_Core_2.0\SignalR\radu\Chat\Chat\obj\Debug\netcoreapp2.0\Chat.csproj.CoreCompileInputs.cache
+E:\demos\NET\.Net_Core_2.0\SignalR\radu\Chat\Chat\obj\Debug\netcoreapp2.0\Chat.AssemblyInfoInputs.cache
+E:\demos\NET\.Net_Core_2.0\SignalR\radu\Chat\Chat\obj\Debug\netcoreapp2.0\Chat.AssemblyInfo.cs
+E:\demos\NET\.Net_Core_2.0\SignalR\radu\Chat\Chat\obj\Debug\netcoreapp2.0\Chat.dll
+E:\demos\NET\.Net_Core_2.0\SignalR\radu\Chat\Chat\obj\Debug\netcoreapp2.0\Chat.pdb

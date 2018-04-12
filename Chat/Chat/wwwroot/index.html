@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Chat</title>
+</head>
+<body>
+    <div>
+        <input type="text" id="message" />
+        <input type="button" id="sendMessage" value="Send" />
+        <ul id="dis"></ul>
+    </div>
+
+    <script type="text/javascript" src="signalr-client-1.0.0-alpha2-final.js"></script>
+    <script type="text/javascript">
+        var transport = signalR.TransportType.WebSockets;
+        var connection = new signalR.HubConnection(`http://${document.location.host}/chat`, { transport: transport });
+
+        //输入文本的文本框
+        var messageInput = document.getElementById('message');
+        //一个弹出框
+        var name = prompt('enter your name', "");
+        //按钮
+        var button = document.getElementById('sendMessage');
+
+        //定义客户端作为代理响应服务端的方法,注意，这里这是定义哦
+        connection.on('tellEveryone', (name, message) => {
+            var liElement = document.createElement('li');
+            liElement.innerHTML = '<strong>' + name + '</strong>:&nbsp;&nbsp;' + message;
+            document.getElementById('dis').appendChild(liElement);
+        });
+
+        //客户端肯定要调用Hub中的方法的
+        button.addEventListener("click", event => {
+            //Hub中的方法名到这里就变成小写了
+            connection.invoke('send', name, messageInput.value);
+            messageInput.value = '';
+            messageInput.focus();
+        });
+
+        connection.start();
+    </script>
+</body>
+</html>
